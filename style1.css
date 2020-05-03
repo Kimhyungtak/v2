@@ -1,0 +1,61 @@
+a {
+    text-decoration: none;
+}
+
+.js {
+    font-size: 30px;
+    font-weight: bold;
+    color: gray;
+}
+
+.ja {
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+}
+
+.jb {
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+}
+
+.jc {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.saw {
+    color: gray;
+}
+
+h1 {
+    font-size: 50px;
+    border-bottom: 3px solid gray;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+ol {
+    font-size: 25px;
+    border-right: 3px solid gray;
+    padding-top: 25px;
+    text-align: left;
+    margin: 0;
+    width: 110px;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 150px 3fr;
+}
+
+#rrr {
+    padding-left: 16px;
+}

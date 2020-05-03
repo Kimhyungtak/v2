@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style1.css">
+    <meta charset="utf-8">
+    <title></title>
+</head>
+
+<body>
+    <h1><a herf="index.html">WEB
+    <input type="button" value="Night" onclick="
+      var target = document.querySelector('body') ;
+      if(this.value === 'Night'){
+        target.style.backgroundColor='black';
+        target.style.color='white';
+        this.value = 'Day';
+      } else{
+        target.style.backgroundColor='white';
+        target.style.color='black';
+        target.dataset.mode ='Day';
+        this.value = 'Night';
+      }
+    ">
+    </a></h1>
+    <div id="grid">
+        <ol>
+            <li><a href="1.html" class="saw">Kanda</a></li>
+            <li><a href="2.html" class="saw">Naver</a></li>
+            <li><a href="3.html" class="saw">Daum</a></li>
+        </ol>
+        <div id="rrr">
+            <h3>
+                <span class="ja">Kanda
+
+                </span>
+            </h3>
+            <video width="300px" height="300px" src="kanda1.mp4" controls>
+
+            </video>
+            <p> 우리집 최고 귀요미 칸다
+
+            </p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
